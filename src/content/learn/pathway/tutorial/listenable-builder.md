@@ -256,11 +256,9 @@ class ArticlePage extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Flexible(
             child: ArticleWidget(
               summary: summary,
             ),
-          ),
           ElevatedButton(
             onPressed: nextArticleCallback,
             child: Text('Next random article'),
